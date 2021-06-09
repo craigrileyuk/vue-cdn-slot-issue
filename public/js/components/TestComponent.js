@@ -18,6 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -132,9 +133,12 @@ var render = function() {
           expression: "field"
         }
       }),
-      _vm._v("\n    " + _vm._s(_vm.field) + "\n")
+      _vm._v("\n    " + _vm._s(_vm.field) + "\n    "),
+      _vm._t("test", function() {
+        return [_vm._v("THIS IS A TEST")]
+      })
     ],
-    1
+    2
   )
 }
 var staticRenderFns = []
